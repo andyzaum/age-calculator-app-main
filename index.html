@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <!-- LINK CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+
+  <!-- LINK FOR FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+    rel="stylesheet">
+
+
+
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- This is to centralize the content -->
+  <div class="container">
+
+    <!-- User will input their birthday date here -->
+
+    <div class="date">
+
+      <div class="day">
+        <p>
+          DAY
+        </p>
+        <input id="DD" type="text" class="day" placeholder="DD" maxlength="2">
+
+        <!-- All alerts its to show up only on error -->
+
+        <p id="alertDay" class="alert"></p>
+
+      </div>
+
+      <div class="month">
+        <p>
+          MONTH
+        </p>
+        <input id="MM" type="text" class="month" placeholder="MM" maxlength="2">
+
+        <!-- All alerts its to show up only on error -->
+
+        <p id="alertMonth" class="alert"></p>
+      </div>
+
+      <div class="year">
+        <p>
+          YEAR
+        </p>
+        <input id="YY" type="text" class="year" placeholder="YYYY" maxlength="4">
+
+        <!-- All alerts its to show up only on error -->
+
+        <p id="alertYear" class="alert"></p>
+      </div>
+
+    </div>
+
+    <!-- This button its to submit the date -->
+
+    <button type="submit">
+      <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44">
+        <g fill="none" stroke="#FFF" stroke-width="2">
+          <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
+        </g>
+      </svg>
+    </button>
+
+    <!-- Here the user will be able to see his own exactly age -->
+
+    <div class="view">
+
+
+      <div class="result">
+        <div id="result-year">
+          --
+        </div>
+        <p>
+          years
+        </p>
+      </div>
+
+      <div class="result">
+        <div id="result-month">
+          --
+        </div>
+        <p>
+          months
+        </p>
+      </div>
+
+      <div class="result">
+        <div id="result-day">
+          --
+        </div>
+        <p>
+          days
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+    Coded by <a href="#">Anderson Schlosser</a>
+  </div>
+
+
+
+</body>
+
+<script src="./assets/js/script.js"></script>
+
+</html>
