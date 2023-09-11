@@ -37,9 +37,9 @@ Users should be able to:
 ### Screenshot
 
 ![Solution Desktop](./design/solution.jpg)
-<p align="center">
+![Solution Mobile]<p align="center">
   <img width="375" height="812" src="./design/solution-mobile.jpg">
-</p>![Solution Mobile]()
+</p>
 
 
 ### Links
