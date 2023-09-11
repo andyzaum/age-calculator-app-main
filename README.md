@@ -37,7 +37,7 @@ Users should be able to:
 ### Screenshot
  <h3>Solutin Desktop</h3>
 <p align="center">
-  <img width="1440" height="960" src="./design/solution.jpg">
+  <img width="1440" src="./design/solution.jpg">
 </p>
   <h3>Solutin Mobile</h3>
 <p align="center">
