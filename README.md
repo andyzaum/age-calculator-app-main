@@ -35,9 +35,12 @@ Users should be able to:
 - **Bonus**: See the age numbers animate to their final number when the form is submitted
 
 ### Screenshot
-
-![Solution Desktop](./design/solution.jpg)
-![Solution Mobile]<p align="center">
+<p align="center">
+  <h3>Solutin Desktop</h3>
+  <img width="375" height="812" src="./design/solution.jpg">
+</p>
+<p align="center">
+  <h3>Solutin Mobile</h3>
   <img width="375" height="812" src="./design/solution-mobile.jpg">
 </p>
 
