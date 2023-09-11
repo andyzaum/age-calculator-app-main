@@ -1,12 +1,12 @@
 * {
   padding: 0;
   margin: 0;
-  border: none;
+  font-family: "Poppins", sans-serif;
   outline: 0;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 94%);
 }
 body div.container {
   padding: 15vh 0;
@@ -18,34 +18,114 @@ body div.container {
 body div.container div.date {
   display: flex;
   justify-content: space-around;
+  gap: 15px;
+  padding-bottom: 30px;
 }
 body div.container div.date input {
   width: 20vw;
-  margin: 0 15px;
   margin-left: 0;
+  padding: 8px 8px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: hsl(0, 0%, 86%);
   font-weight: 700;
+  font-size: 20px;
   color: black;
+  transition: 0.2s;
 }
 body div.container div.date p {
-  font-weight: 400;
   padding: 20px;
-  padding-left: 0;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  font-weight: 400;
   color: hsl(0, 1%, 44%);
+  letter-spacing: 3px;
 }
 body div.container div.date p.alert {
-  padding: 0;
+  padding: 0px;
   margin: 0;
-  font-size: 10px;
+  letter-spacing: 0;
+  color: rgb(255, 255, 255);
+  font-size: 8px;
 }
 body div.container button {
+  border: 0;
   border-radius: 100%;
   background-color: hsl(259, 100%, 65%);
+  height: 60px;
+  width: 60px;
+  margin-bottom: 30px;
+}
+body div.container button svg {
+  width: 26px;
+  height: 26px;
+}
+body div.container div.view {
+  transition: 0.2s;
+  margin-right: 40px;
 }
 body div.container div.view div.result {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  gap: 10px;
+  font-size: 55px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 60px;
 }
 body div.container div.view div.result div {
   color: hsl(259, 100%, 65%);
+}
+body div.attribution {
+  color: 0;
+}
+
+@media (min-width: 1440px) {
+  body div.container {
+    padding: 18vh 0;
+    margin-right: 10vw;
+  }
+  body div.container div.date {
+    margin-right: 60px;
+    gap: 30px;
+    padding-bottom: 0;
+  }
+  body div.container div.date input {
+    width: 9vw;
+    border-radius: 10px;
+    font-size: 32px;
+  }
+  body div.container div.date p {
+    padding-bottom: 10px;
+  }
+  body div.container div.date p.alert {
+    font-size: 12px;
+  }
+  body div.container button {
+    margin-left: 50vw;
+    margin-bottom: 0;
+    height: 80px;
+    width: 80px;
+  }
+  body div.container button svg {
+    width: 40px;
+    height: 40px;
+  }
+  body div.container div.view {
+    display: flex;
+    align-items: initial;
+    flex-direction: column;
+    margin-right: 9vw;
+  }
+  body div.container div.view div.result {
+    padding-left: 0;
+    font-size: 100px;
+    line-height: 110px;
+  }
+  body div.attribution {
+    padding-top: 0;
+    font-size: 15px;
+  }
 }/*# sourceMappingURL=style.css.map */
