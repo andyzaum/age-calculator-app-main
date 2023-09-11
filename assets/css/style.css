@@ -80,6 +80,11 @@ body div.container div.view div.result div {
 }
 body div.attribution {
   color: 0;
+  font-size: 11px;
+  text-align: center;
+}
+body div.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 @media (min-width: 1440px) {
@@ -108,16 +113,22 @@ body div.attribution {
     margin-bottom: 0;
     height: 80px;
     width: 80px;
+    transition: 0.1s;
   }
   body div.container button svg {
     width: 40px;
     height: 40px;
   }
+  body div.container button:hover {
+    cursor: pointer;
+    background-color: hsl(259, 66%, 55%);
+    scale: 0.95;
+  }
   body div.container div.view {
     display: flex;
     align-items: initial;
     flex-direction: column;
-    margin-right: 9vw;
+    margin-right: 3vw;
   }
   body div.container div.view div.result {
     padding-left: 0;
@@ -127,5 +138,11 @@ body div.attribution {
   body div.attribution {
     padding-top: 0;
     font-size: 15px;
+  }
+  body div.attribution a {
+    transition: 0.2s;
+  }
+  body div.attribution a:hover {
+    color: hsl(259, 66%, 55%);
   }
 }/*# sourceMappingURL=style.css.map */

@@ -131,6 +131,14 @@ body
     {
         color: red($color: #000000);
 
+        font-size: 11px;
+        text-align: center;
+
+        a
+        {
+            color: hsl(228, 45%, 44%);
+        }
+
     }
 
 
@@ -153,6 +161,7 @@ body
                 gap: 30px;
 
                 padding-bottom: 0;
+
 
                 input
                 {
@@ -183,11 +192,24 @@ body
                 height: 80px;
                 width: 80px;
 
+                
+
+                transition: 0.1s;
+
                 svg
                 {
                     width: 40px;
                     height: 40px;
                 }
+            }
+
+            button:hover
+            {
+                cursor: pointer;
+                background-color: hsl(259, 66%, 55%);
+                scale: 0.95;
+
+
             }
 
             div.view
@@ -198,7 +220,7 @@ body
                 align-items: initial;
                 flex-direction: column;
 
-                margin-right: 9vw;
+                margin-right: 3vw;
 
                 div.result
                 {
@@ -213,6 +235,15 @@ body
         {
             padding-top: 0;
             font-size: 15px;
+
+
+            a{
+                transition: 0.2s;
+            }
+
+            a:hover{
+                color: hsl(259, 66%, 55%);
+            }
         }
     }
 }
